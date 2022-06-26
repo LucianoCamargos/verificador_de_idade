@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: blueviolet;
+}
+
+header {
+    margin: 15px auto;
+    text-align: center;
+    color: gold;
+}
+
+section {
+    background: rgb(135, 213, 243);
+    width: 500px;
+    padding: 15px;
+    margin: auto;
+    line-height: 2;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(7, 0, 0);
+}
+
+#txtano {
+    border-radius: 5px;
+    background: rgb(204, 247, 253);
+    border: solid 1px rgb(6, 121, 150);
+}
+
+#botao {
+    border: solid 2px rgb(6, 135, 158);
+    border-radius: 5px;
+    background: rgb(129, 192, 211);
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color: rgb(3, 83, 114);
+    color: white;
+    font-weight: bold;
+    border: 3px solid rgb(1, 140, 182);
+}
+
+#resultado {
+    /*background: #2bb9f1; Esse estilo sera alterado por JavaScript*/
+    margin: auto;
+    padding-top: 5px;
+    width: 400px;
+    text-align: center;
+    font-size: 20pt;
+    color: rgb(1, 72, 82);
+    /*box-shadow: 3px 3px 30px #01202e; Esse estilo sera alterado por JavaScript*/
+    border-radius: 15px;
+}
+
+#foto {
+    height: 225px;
+    width: 225px;
+}
+
+footer {
+    text-align: center;
+}
+
+.marca {
+    margin-top: 10px;
+}
+
+.marca img {
+    width: 16px;
+    height: 16px;
+    padding-top: 5px;
+}
+
+.marca a {
+    font-size: 12pt;
+    color: rgb(117, 194, 136);
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+.marca h5 {
+    font-size: 8pt;
+    padding-bottom: 3px;
+}
