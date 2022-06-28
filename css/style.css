@@ -86,7 +86,7 @@ footer {
     padding-bottom: 3px;
 }
 
-@media(max-width: 320px) {
+@media(max-width: 375px) {
     section {
        width: auto;
     }
@@ -100,13 +100,15 @@ footer {
     #resultado {
         font-size: 18px;
         margin: 5px 0px 0px;
-        width: 290px;
-        height: 200px;
+        width: 100%;
+        height: 230px;
     }
 
     #foto {
         width: auto;
-        height: 150px;
+        height: 180px;
+        border-radius: 100%;
+        box-shadow: 0px 3px 15px rgb(72, 72, 72);
     }
 
     #botao {
@@ -114,9 +116,57 @@ footer {
         font-weight: bold;
         color: gold;
         background-color: rgb(23, 3, 99);
-        margin: 0 15px;
-        width: 260px;
+        margin: 0 20px;
+        width: 300px;
         height: 30px;
+    }
+
+    #botao:hover {
+        background-color: blue;
+        color: gold;
+        width: 100%;
+        height: 40px;
+        margin: auto;
+    }
+
+    .marca {
+        margin: auto;
+    }
+}
+
+@media(max-width: 425px) {
+    section {
+       width: auto;
+    }
+
+    #txtano {
+        width: 150px;
+        height: 22px;
+        border: solid 2px rgb(81, 81, 253);
+    }
+
+    #resultado {
+        font-size: 18px;
+        margin: 5px 0px 0px;
+        width: 100%;
+        height: 230px;
+    }
+
+    #foto {
+        width: auto;
+        height: 180px;
+        border-radius: 100%;
+        box-shadow: 0px 3px 15px rgb(72, 72, 72);
+    }
+
+    #botao {
+        font-size: 25px;
+        font-weight: bold;
+        color: gold;
+        background-color: rgb(23, 3, 99);
+        margin: 0 20px;
+        width: 350px;
+        height: 35px;
     }
 
     #botao:hover {
