@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -30,22 +32,28 @@ section {
 }
 
 #botao {
-    border: solid 2px rgb(6, 135, 158);
-    border-radius: 5px;
-    background: rgb(129, 192, 211);
-    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    color: gold;
+    background-color: rgb(23, 3, 99);
+    margin: auto;
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
 }
 
 #botao:hover {
-    background-color: rgb(3, 83, 114);
-    color: white;
-    font-weight: bold;
-    border: 3px solid rgb(1, 140, 182);
+    background-color: blue;
+    color: gold;
+    width: 100%;
+    height: 45px;
+    margin: -7px 0 7px 0;
+    border-radius: 30px;
 }
 
 #resultado {
     /*background: #2bb9f1; Esse estilo sera alterado por JavaScript*/
-    margin: auto;
+    margin: 5px auto;
     padding-top: 5px;
     width: 400px;
     text-align: center;
@@ -69,7 +77,7 @@ footer {
 }
 
 .marca img {
-    width: 16px;
+    width: auto;
     height: 16px;
     padding-top: 5px;
 }
@@ -77,7 +85,7 @@ footer {
 .marca a {
     font-size: 12pt;
     color: rgb(117, 194, 136);
-    font-family: fantasy;
+    font-family: fantasy, Goldman, cursive;
     text-decoration: none;
 }
 
@@ -86,57 +94,9 @@ footer {
     padding-bottom: 3px;
 }
 
-@media(max-width: 375px) {
-    section {
-       width: auto;
-    }
-
-    #txtano {
-        width: 150px;
-        height: 22px;
-        border: solid 2px rgb(81, 81, 253);
-    }
-
-    #resultado {
-        font-size: 18px;
-        margin: 5px 0px 0px;
-        width: 100%;
-        height: 230px;
-    }
-
-    #foto {
-        width: auto;
-        height: 180px;
-        border-radius: 100%;
-        box-shadow: 0px 3px 15px rgb(72, 72, 72);
-    }
-
-    #botao {
-        font-size: 25px;
-        font-weight: bold;
-        color: gold;
-        background-color: rgb(23, 3, 99);
-        margin: 0 20px;
-        width: 300px;
-        height: 30px;
-    }
-
-    #botao:hover {
-        background-color: blue;
-        color: gold;
-        width: 100%;
-        height: 40px;
-        margin: auto;
-    }
-
-    .marca {
-        margin: auto;
-    }
-}
-
 @media(max-width: 425px) {
     section {
-       width: auto;
+        width: 360px;
     }
 
     #txtano {
@@ -146,15 +106,15 @@ footer {
     }
 
     #resultado {
-        font-size: 18px;
+        font-size: 22px;
         margin: 5px 0px 0px;
         width: 100%;
-        height: 230px;
+        height: 200px;
     }
 
     #foto {
         width: auto;
-        height: 180px;
+        height: 150px;
         border-radius: 100%;
         box-shadow: 0px 3px 15px rgb(72, 72, 72);
     }
@@ -164,8 +124,8 @@ footer {
         font-weight: bold;
         color: gold;
         background-color: rgb(23, 3, 99);
-        margin: 0 20px;
-        width: 350px;
+        margin: 5px auto;
+        width: 100%;
         height: 35px;
     }
 
@@ -178,6 +138,46 @@ footer {
     }
 
     .marca {
+        margin: 5px auto;
+    }
+}
+
+@media(max-width: 768px) {
+    section {
         margin: auto;
+    }
+
+    #txtano {
+        width: 150px;
+        height: 22px;
+        border: solid 2px rgb(81, 81, 253);
+    }
+
+    #resultado {
+        font-size: 25px;
+        margin: auto;
+        width: 100%;
+        height: 250px;
+    }
+
+    #foto {
+        width: auto;
+        height: 185px;
+        border-radius: 100%;
+        box-shadow: 0px 3px 15px rgb(72, 72, 72);
+    }
+
+    #botao {
+        font-size: 25px;
+        font-weight: bold;
+        color: gold;
+        background-color: rgb(23, 3, 99);
+        margin: auto;
+        width: 100%;
+        height: 35px;
+    }
+
+    .marca {
+        margin: 5px auto;
     }
 }
